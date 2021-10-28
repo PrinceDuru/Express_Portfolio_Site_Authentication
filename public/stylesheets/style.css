@@ -43,3 +43,7 @@ ExpressPortfolio Site */
     width:20%;
 	height: 110px;
   }
+
+  footer nav h6{
+    text-align: center;
+}
