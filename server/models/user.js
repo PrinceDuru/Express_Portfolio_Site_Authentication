@@ -1,4 +1,8 @@
-
+/* File name: user.js
+Name: Prince Duru
+Student Id: 301167756
+Date: 10/28/2021
+ExpressPortfolio Site authentication */
 
 // require modules for the User Model
 let mongoose = require('mongoose');
