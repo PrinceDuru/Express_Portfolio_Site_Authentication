@@ -1,0 +1,65 @@
+<!-- File name: contact.ejs
+Name: Prince Duru
+Student Id: 301167756
+Date: 10/03/2021
+ExpressPortfolio Site-->  
+
+<% include partials/header.ejs %>
+
+<div class="container">
+    <h1>
+      <%= title %>
+    </h1>
+       <main>
+      
+    <figure>
+    <p>I can be reached through any of the following:</p>
+		<br>Phone: (287) 652-8621
+		<br>Email: <a href="mailto:pduru@my.centennialcollege.ca">pduru@my.centennialcollege.ca</a>
+        <br>LinkedIn: <a href="https://www.linkedin.com/in/prince-duru/">https://www.linkedin.com/in/prince-duru/</a>
+    </figure>
+  
+    <h5><span lang="en-ca">Please, fill out this form to provide more information about you.</span></h5>
+	<form method="post" action="mailto:pduru@my.centennialcollege.ca" method="post">
+    
+    <table cellspacing="4" cellpadding="5" width="100%" height="30%">
+      <colgroup>
+          <col width="50%"/>
+          <col width="50%" />
+          </colgroup>
+    <tr> <td>
+    <label>First Name: </label> 
+    <input type="text" id="firstname" name="firstname" size="27" required="required"></td> <td>
+    
+    <label>Last Name: </label>
+    <input type="text" id="lastname" name="lastname" size="30" required="required"> </td></tr><br>
+
+    <tr><td>
+    <label>Your Phone Number: </label>
+    <input type="text" id="phonenum" name="phonenum" size="15" required="required"></td><td>
+	  
+    <label>Your Email:</label>
+    <input name="txtEmail" type="email" size="30" required="required" /></td></tr>
+    </table>
+
+   <label>Service Type: </label>
+    <select name="servtype" id="servtype" size="1">
+        <option value="Web"> Website Design</option>
+        <option value="Analytics">Data Analytics</option>
+        <option value="Database">Database Design and Administration</option>
+    </select> <br>
+                        
+<label>Please drop a message. </label> <br>   
+  <textarea id="comment" name="opinion"  id="comment" rows="5" cols="50"> </textarea><br>
+                        
+  <button type="submit" value="Submit">Submit your information</button>
+  <button type="reset" value="Reset">Clear to start again</button>
+
+		<!-- <span lang="en-ca">...</span> -->
+  
+  </form>
+    </main>
+ 
+  </div>
+
+<% include partials/footer.ejs %>

@@ -1,0 +1,60 @@
+<!-- File name: projects.ejs
+Name: Prince Duru
+Student Id: 301167756
+Date: 10/03/2021
+ExpressPortfolio Site--> 
+
+<% include partials/header.ejs %>
+
+<div class="container">
+    <h1>
+      <%= title %>
+    </h1>
+
+<p> The following are a few of the recent project I have done:
+    
+    <div class="project-cont">
+        <div class="project-image">
+            <img src="../../Assets/images/page_recomend.jpg">
+        </div>
+
+        <div class="project-text">
+        <p>
+        Developed text analytics proof-of-concept for Government of Ontario SME digital assistant comprising site 
+        scraping, development of site topology, site content summarization with BERT, topic modeling and page
+        recommendation with Top2Vec ML model.
+        </p> 
+        </div>
+    </div>
+    <br>
+        <div class="project-cont">
+        <div class="project-image">
+            <img src="../../Assets/images/route_opt.jpg">
+        </div>
+
+        <div class="project-text">
+        <p>
+            Implemented route optimization for Fleet Management System using Geo-Spatial data by identifying and reducing 
+            routes with high idling, longer completion time and higher left turns. Potential cost savings from analysis is over 
+            $150,000 per year on fuel consumption. Analytics tools used: QGIS, Geo-Pandas and Scikit-Learn
+        </p> 
+        </div>
+    </div>
+    <br>
+        <div class="project-cont">
+        <div class="project-image">
+            <img src="../../Assets/images/customer_seg.jpg">
+        </div>
+
+        <div class="project-text">
+        <p>
+            Designed a customer segmentation strategy for a 10,000-customer base client that enhanced target marketing of 
+            client realizing 20% increase in sales conversion. Machine Learning Algorithms used: K-Means and K-Prototype (In 
+            Python).
+        </p> 
+        </div>
+    </div>
+    
+  </div>
+
+<% include partials/footer.ejs %>
