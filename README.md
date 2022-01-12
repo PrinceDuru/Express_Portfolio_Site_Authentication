@@ -19,7 +19,7 @@ The login page manages access to a secure section of the site that displays my c
 
 ## Demo
 
-Insert gif or link to demo
+<p><img align="right" src="https://github.com/PrinceDuru/Express_Portfolio_Site_Authentication/blob/master/portfolio_site_demo.gif" /></p>
 
 
 ## Run Locally
