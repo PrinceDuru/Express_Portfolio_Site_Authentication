@@ -4,6 +4,7 @@
 This is a web application which documents my project portfolio explaining a few of my projects. 
 It consists of a Home page, About Me page, Projects, Services, Contact and login pages.
 The login page manages access to a secure section of the site that displays my contact list.
+The contact list is stored in a backend database which is connected to the site.
 ## Features
 
 - ExpressJS was used to implement EJS templating engine
